@@ -28,6 +28,7 @@ public class CustomerDetailsBean implements Serializable {
 
   @EJB
   private CustomerManager customerManager;
+  @EJB
   private DiscountManager discountManager;
 
   public int getIdCustomer() {
